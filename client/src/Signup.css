@@ -1,0 +1,85 @@
+/* Signup.css */
+.signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.row {
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/* Image Container */
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+/* Signup Form */
+.signup-container {
+    flex: 1;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.signup-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Hover Effects */
+.signup-container:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+.form-control:hover {
+    border-color: #007bff;
+    transition: border-color 0.3s ease-in-out;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease-in-out;
+}
+.form-control {
+    padding: 10px;
+    font-size: 16px;
+}
+.btn-primary {
+    font-size: 18px;
+    padding: 10px;
+}
+.alert-danger {
+    font-size: 16px;
+    text-align: center;
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-container {
+        margin-bottom: 20px;
+    }
+
+    .signup-container {
+        width: 100%;
+    }
+}

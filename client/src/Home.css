@@ -1,0 +1,170 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("3.jpg"); /* Your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+    text-align: left;
+    color: white; /* Default text color remains white */
+}
+
+.home-content h1{
+    color:#003366; /* Only the text ON the image turns blue */ ;
+}
+.home-content h2 {
+    color: black;
+}
+
+.find-out-more {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.find-out-more:hover {
+    background-color: darkred; /* Darker red on hover */
+}
+/* Loan Div Styling */
+.service {
+    background: #0c31ec98;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    color: white;
+}
+
+/* Hover Effect */
+.service:hover {
+    transform: scale(1.05); /* Slight zoom */
+    background: #0a25bb; /* Darker blue on hover */
+}
+/* Featured Services Section */
+.featured-services {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Darker background */
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.service {
+    background:  #0c31ec98;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.service img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Our Products Section */
+.our-products {
+    width: 100%;
+    background-image: url("11.jpg");
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.product {
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.product img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+.footer {
+    width: 100%;
+    background: #0c31ec;
+    color: white;
+    padding: 5px 10px; /* Further reduced padding */
+    display: flex;
+    justify-content: space-between; /* Positions left and right sections */
+    align-items: center;
+    text-align: left;
+    font-size: 12px; /* Smaller text */
+}
+
+.footer-left {
+    padding-left: 5px; /* Minimal left padding */
+}
+
+.footer-right {
+    display: flex;  
+    align-items: center; /* Aligns the text and icons vertically */
+    justify-content: center; /* Ensures they are properly aligned horizontally */
+    gap: 15px; /* Provides space between "Follow Us" and icons */
+    text-align: right;
+    padding-right: 5px;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px; /* Spacing between icons */
+}
+
+
+.social-links a img {
+    width: 30px; /* Even smaller icons */
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links a:hover img {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}

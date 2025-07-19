@@ -1,0 +1,63 @@
+/* ✅ Styles for Dashboard.jsx Only */
+.dashboard-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* ✅ Heading Style */
+.dashboard-container h2 {
+    color: #343a40; /* Dark gray */
+    margin-bottom: 15px;
+}
+
+/* ✅ Account and Balance Information */
+.dashboard-container p {
+    font-size: 18px;
+    color: #495057; /* Slightly darker gray */
+}
+
+/* ✅ Buttons Styling */
+.dashboard-container button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* ✅ Deposit Button */
+.dashboard-container button:nth-child(1) {
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+.dashboard-container button:nth-child(1):hover {
+    background-color: #218838;
+}
+
+/* ✅ Withdraw Button */
+.dashboard-container button:nth-child(2) {
+    background-color: #ffc107; /* Yellow */
+    color: black;
+}
+
+.dashboard-container button:nth-child(2):hover {
+    background-color: #e0a800;
+}
+
+/* ✅ Logout Button */
+.dashboard-container button:last-child {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+.dashboard-container button:last-child:hover {
+    background-color: #c82333;
+}

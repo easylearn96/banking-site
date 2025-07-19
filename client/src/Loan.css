@@ -1,0 +1,28 @@
+/* Button Styling */
+.btn {
+    background-color: #007bff;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: block; /* Make sure it's treated as a block element */
+    margin: 20px auto; /* Center it horizontally */
+    text-align: center;
+}
+
+/* Hover Effect */
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* If you want to center it inside a container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
